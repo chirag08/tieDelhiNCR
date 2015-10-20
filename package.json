@@ -1,0 +1,33 @@
+{
+  "name": "tiedelhi",
+  "version": "0.0.1",
+  "description": "Tie Hackathon App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Team Insidious",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.2",
+    "asyncjs": "0.0.9",
+    "body-parser": "^1.14.0",
+    "cookie-parser": "^1.4.0",
+    "cookies": "^0.5.1",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "geocoder": "^0.2.2",
+    "geonoder": "^0.1.0",
+    "imgur": "^0.1.6",
+    "mongodb": "^2.0.43",
+    "mongoose": "^4.1.8",
+    "nodemailer": "^1.5.0",
+    "path": "^0.12.7",
+    "request": "^2.65.0",
+    "simple-twitter": "^1.0.7",
+    "twilio": "^2.4.0",
+    "underscore": "^1.8.3",
+    "webworker": "^0.8.4"
+  }
+}

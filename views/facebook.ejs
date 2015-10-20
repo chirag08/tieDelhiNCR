@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Just 2 Minutes of facebook login!</title>
+	</head>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js">
+	</script>
+	<script type="text/javascript" src="js/facebook.js">
+	</script>
+	<body>
+		<div id="status"></div>
+		<div id="random">
+			<fb:login-button scope="public_profile,user_photos,
+			user_friends,user_about_me,user_posts,user_location,user_tagged_places,email" onlogin="checkLoginState();">
+		</div>
+		</fb:login-button>
+	</body>
+</html>
