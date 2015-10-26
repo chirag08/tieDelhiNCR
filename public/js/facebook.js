@@ -20,7 +20,7 @@ function statusChangeCallback(response){
 window.fbAsyncInit = function() {//will run as soon as SDK has finished loading
     FB.init({//intiaze the setup sdk
     	cookie   : true,//if enables the cookie can be used by web server
-      	appId      : '**********',//Obtain Your own API key from facebook developers
+      	appId      : '********************',//Obtain Your own API key from facebook developers
         xfbml      : true,//extended Fb Markup Langugae...intialize any fb plugin used in page using DOM
       	version    : 'v2.5',
       	status : true
